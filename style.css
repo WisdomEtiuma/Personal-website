@@ -1,0 +1,117 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+section {
+    margin: 5%;
+}
+.heropage {
+    margin: 0;
+    background-image: url('./images/HeroPage.png');
+    background-size: cover;
+}
+.containers {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.containers p {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #728227;
+    font-size: 5rem;
+}
+.profilephoto {
+    border-radius: 50%;
+    height: 200px;
+    margin-bottom: 40px;
+}
+h2 {
+    height: fit-content;
+    color: #728227;
+    display: flex;
+    margin: 5% 0;
+    justify-content: center;
+}
+.features h2 {
+    font-size: xxx-large;
+    margin: 2% 0;
+}
+.features * {
+    background-color: #A0FF9F!important;
+}
+.skills {
+    display: grid;
+    grid-template: 1fr 9fr 1fr / 1fr;
+    background-color: #A0FF9F;
+    padding: 3%;
+    justify-content: center;
+    height: 175vh;
+}
+h3 {
+    color: #454F18;
+}
+.skills > p {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20%;
+}
+.grid-container {
+    display: grid;
+    grid-template: 0.5fr 0.5fr 0.5fr / 1fr 3fr;
+    gap: 5%;
+    background-color: #A0FF9F;
+    height: 100vh;
+    width: 75vw;
+    align-items: center;
+    justify-items: center;
+}
+.grid-item {
+    background-color: #A0FF9F;
+}
+.first, .third, .fifth {
+    display: block;
+}
+.contact {
+    background-color: #A0FF9F;
+    height: 60vh;
+    padding: 3%;
+}
+.contact h3, .contact p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.mybutton {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #488C2A!important;
+}
+.footer {
+    margin: 5% 0 0 0;
+    height: 20vh;
+    background-color: #488C2A;
+}
+#footerspan {
+    color: white!important;
+}
+.footer li a {
+    color: white!important;
+    text-decoration: none;
+}
+@media (max-width: 1000px) {
+    .skills {
+        height: 250vh;
+    }
+    .grid-container {
+        grid-template: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr / 1fr;
+    }
+}
